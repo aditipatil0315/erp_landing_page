@@ -14,9 +14,9 @@ const Page5 = () => {
 
       
       <div className="right md:w-1/2 p-9 flex flex-col justify-center bg-white">
-        <h1 className="text-2xl md:text-3xl text-[#25307F] mb-2">Contact Us</h1>
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#25307F]">
-          We are here to help
+        <h1 className="text-2xl md:text-3xl text-[#25307F] mb-2">📞 <br /> Contact us today to schedule a free consultation.</h1>
+        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#25307F] tracking-tight">
+         Fill out the form below, We are <br /> here to help
         </h2>
         <form className="space-y-4">
           <input
