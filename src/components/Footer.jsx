@@ -1,43 +1,39 @@
-import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="bg-[#25307F] text-white py-9 absolute top-[600%] w-full h-[50vh] flex justify-center ">
+        <footer className="bg-[#25307F] text-white py-9 absolute md:top-[580%] top-[720%] w-full flex justify-center">
             <div className="container mx-auto px-8 flex flex-col">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-                    <div className="footer-section flex justify-center ">
-                        
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+                    <div className="footer-section flex justify-center">
                         <div className="support-team">
                             <h4 className="font-semibold text-lg mb-2">Company</h4>
-                            <ul className="space-y-1">
+                            <ul className="space-y-1 text-center md:text-left">
                                 <li>Home</li>
                                 <li>About</li>
                                 <li>Products</li>
                                 <li>News</li>
-
                             </ul>
                         </div>
                     </div>
-                    <div className="footer-section flex  flex-col">
+                    <div className="footer-section flex flex-col items-center md:items-start">
                         <h4 className="font-semibold text-lg mb-2">Help</h4>
-                        <ul className="space-y-1">
+                        <ul className="space-y-1 text-center md:text-left">
                             <li>Customer Support</li>
                             <li>Delivery Details</li>
                             <li>Terms & Conditions</li>
                             <li>Privacy Policy</li>
-
                         </ul>
                     </div>
-                    <div className="footer-section flex  flex-col">
+                    <div className="footer-section flex flex-col items-center md:items-start">
                         <h4 className="font-semibold text-lg mb-2">Resources</h4>
-                        <ul className="space-y-1">
+                        <ul className="space-y-1 text-center md:text-left">
                             <li>Blogs</li>
                             <li>Youtube Channel</li>
                         </ul>
                     </div>
-                    <div className="footer-section flex  flex-col">
+                    <div className="footer-section flex flex-col items-center md:items-start">
                         <h4 className="font-semibold text-lg mb-2">Get in touch</h4>
-                        <ul className="space-y-1">
+                        <ul className="space-y-1 text-center md:text-left">
                             <li>SRD House, LNB Road, Mangaldoi, Assam,784125</li>
                             <li>Email us : hello@organictea.com</li>
                             <li>Call us: +91 8210687508</li>

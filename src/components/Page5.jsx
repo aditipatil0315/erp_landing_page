@@ -1,9 +1,8 @@
-import React from 'react';
 import imgbtm from '../assets/image5.png';
 
 const Page5 = () => {
   return (
-    <div className="flex flex-col md:flex-row min-h-screen absolute top-[470%] w-full">
+    <div className="flex flex-col md:flex-row min-h-screen absolute top-[610%] md:top-[470%] w-full">
       
       <div className="left md:w-1/2 flex justify-center items-center p-6">
         <img

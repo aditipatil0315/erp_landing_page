@@ -1,11 +1,10 @@
-import React from "react";
 import img from "../assets/image.png";
 
 const Page3 = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center px-6 md:px-12 bg-white space-y-8 md:space-y-0 md:space-x-12 absolute top-[230%]">
+    <div className="flex flex-col md:flex-row items-center px-6 md:px-12 bg-white space-y-8 md:space-y-0 md:space-x-12 absolute top-[235%]">
       <div className="flex-1 text-center md:text-left">
-        <h2 className="text-base md:text-lg font-medium text-[#25307F] mb-2">
+        <h2 className=" md:text-xl font-bold text-[#25307F] mb-2">
           About
         </h2>
         <h1 className="text-2xl md:text-3xl font-bold mb-4">
@@ -26,10 +25,10 @@ const Page3 = () => {
       </div>
 
       <div className="flex flex-col md:flex-row gap-6">
-        {/* Image */}
+        
         <div className="relative rounded-lg overflow-hidden w-full md:w-1/2">
           <img
-            src={img} // Ensure the img import is uncommented.
+            src={img}
             alt="Healthcare Staff"
             className="w-full h-auto object-cover"
           />
