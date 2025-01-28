@@ -5,7 +5,7 @@ import img4 from "../assets/img4.png";
 
 const Page4 = () => {
   return (
-    <div className="container rounded-lg w-full bg-white mx-auto py-12 absolute top-[340%] flex flex-col justify-center items-center px-4 md:right-32">
+    <div className="container rounded-lg w-full bg-white mx-auto py-12 absolute top-[345%] md:top-[350%] flex flex-col justify-center items-center px-4 ">
       {/* Headings */}
       <div className="text-center mb-8 text-[#25307F]">
         <h2 className="text-2xl md:text-3xl font-semibold">What we do</h2>
