@@ -3,11 +3,10 @@ import Navbar from './Navbar'
 
 const Page1 = () => {
   return (
-    <div className='Page1 w-full h-[100%] relative'>
-        <Navbar/>
+    <div className='Page1 w-full h-[100vh] '>
 
         <img src={img7} className=' absolute top-0 left-0 z-[-10]' />
-        <div className="content h-[360px] md:h-[280px] w-[800px] p-7 backdrop-blur-lg bg-white bg-opacity-45 rounded-2xl absolute top-[250%] left-[5%] ">
+        <div className="content h-[360px] md:h-[280px] w-[800px] p-7 backdrop-blur-lg bg-white bg-opacity-45 rounded-2xl  ">
             <h1 className='md:text-4xl text-md'>Transform Hospital Operations with Our <br /> <span className='text-[#263281]'>All-in-One Management Portal </span></h1>
             <h3 className='md:text-[20px] text-sm'>Streamline workflows, enhance patient care, and optimize <br /> revenue with role-based access for Admin, Reception, and <br />Doctors.</h3>
             <br />

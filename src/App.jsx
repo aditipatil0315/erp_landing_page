@@ -5,11 +5,14 @@ import Page3 from './components/Page3'
 import Page5 from './components/Page5'
 import Page4 from './components/Page4'
 import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+
 
 function App() {
 
   return (
     <div >
+      <Navbar/>
       <Page1 />
       <Page2 />
       <Page3 />

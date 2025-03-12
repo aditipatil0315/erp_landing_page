@@ -2,7 +2,7 @@ import img from "../assets/image.png";
 
 const Page3 = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center px-6 md:px-12 bg-white space-y-8 md:space-y-0 md:space-x-12 absolute top-[210%] md:top-[255%]">
+    <div className="flex flex-col md:flex-row items-center px-6 md:px-12 bg-white space-y-8 md:space-y-0 md:space-x-12 ">
       <div className="flex-1 text-center md:text-left">
         <h2 className=" md:text-xl font-bold text-[#25307F] mb-2">
           About

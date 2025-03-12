@@ -1,7 +1,7 @@
 
 const Page2 = () => {
   return (
-    <section className="bg-gray-50 py-12 absolute md:top-[140%] top-[62%] w-full h-[115vh]">
+    <section className="bg-gray-50 py-12 w-full h-[115vh]">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-2xl md:text-4xl font-bold text-blue-900 mb-8">
           We Provide The Best Service
